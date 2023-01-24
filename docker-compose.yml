@@ -1,0 +1,12 @@
+---
+version: "3.8"
+services:
+  docker-exporter:
+    container_name: whois-exporter
+    image: whois-exporter:latest
+    restart: always
+    build:
+      context: .
+      target: build
+    ports:
+      - 127.0.0.1:9222:8000
