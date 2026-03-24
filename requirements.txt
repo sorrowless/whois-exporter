@@ -1,2 +1,2 @@
 fastapi[all]
-git+https://github.com/sorrowless/python-whois.git@feat/cache-age
+git+https://github.com/sorrowless/python-whois.git
